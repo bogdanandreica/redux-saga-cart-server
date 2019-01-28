@@ -13,6 +13,7 @@
   "dependencies": {
     "chance": "^1.0.10",
     "cors": "^2.8.3",
+    "debug": "^4.1.1",
     "express": "^4.15.3",
     "forwarded": "^0.1.2",
     "fresh": "^0.5.2",
