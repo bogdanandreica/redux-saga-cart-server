@@ -177,7 +177,10 @@ nativeObject = YAML.load('database.yml',(database)=>{
 		
 	});
 	
-
+    app.get("/items",(req,res)=>{
+        const items = database.items;
+        res.status(200).json(items);
+    });
     
 
     app.get("/items/:ids",(req,res)=>{
